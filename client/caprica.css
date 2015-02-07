@@ -1,0 +1,97 @@
+.caprica-homeland {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+}
+.caprica-homeland-header,
+.caprica-homeland-subheader {
+    height: 60px;
+    line-height: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #141414;
+    color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.caprica-homeland-subheader {
+    background-color: #fff;
+    color: #454545;
+}
+.caprica-homeland-header h1 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.caprica-homeland-header h1 span {
+    font-weight: bold;
+}
+.caprica-homeland-header h1 small {
+    font-size: 14px;
+}
+.caprica-homeland-subheader h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+.caprica-homeland-subheader h2 {
+    font-weight: bold;
+}
+.caprica-homeland-cylons-list {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.caprica-homeland-cylons-list .loading {
+    padding: 30px;
+    background-color: #f3f3f3;
+    margin-top: 30px;
+}
+.caprica-homeland-cylon {
+    background-color: #fff;
+    padding: 0;
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.caprica-homeland-cylon .ch-description {
+    padding: 30px;
+}
+.caprica-homeland-cylon .ch-description p {
+    font-size: 14px;
+}
+.caprica-homeland-cylon .ch-title {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ccc;
+}
+.caprica-homeland-cylon .ch-title h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.caprica-homeland-cylon .ch-commands {
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-top: 1px solid #ccc;
+}
+.caprica-homeland-cylon .ch-commands .ch-command {
+    display: inline-block;
+}
+.caprica-homeland-cylon .ch-commands .ch-command a {
+    background-color: #00a2d3;
+    text-align: center;
+    padding: 10px 20px;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+.caprica-homeland-cylon .ch-commands .ch-command a:hover {
+    background-color: #0092be;
+}

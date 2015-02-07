@@ -1,0 +1,48 @@
+<template name="capricaHomeland">
+    <div class="{{#if class}}{{class}} {{/if}}{{#if defaultTheme}}caprica-homeland{{/if}}">
+        <div class="{{#if class}}{{class}}-header {{/if}}{{#if defaultTheme}}caprica-homeland-header{{/if}}">
+            <h1><span>Caprica</span> <small>...under Cylons occupation... and they have a Plan... Frak!!!</small></h1>
+        </div>
+        <div class="{{#if class}}{{class}}-subheader {{/if}}{{#if defaultTheme}}caprica-homeland-subheader{{/if}}">
+            <h2>Cylons:</h2>
+        </div>
+        <div class="{{#if class}}{{class}}-cylons-list {{/if}}{{#if defaultTheme}}caprica-homeland-cylons-list{{/if}}">
+            {{#if occupiedCapricaDataReady}}
+                {{#each cylons}}
+                    {{> capricaHomelandCylon}}
+                {{/each}}
+            {{else}}
+                <div class="loading">
+                    Scanning for Cylons...
+                </div>
+            {{/if}}
+        </div>
+    </div>
+    {{> sAlert}}
+</template>
+
+<template name="capricaHomelandCylon">
+    <div class="{{#if ../class}}{{../class}}-cylon {{/if}}{{#if ../defaultTheme}}caprica-homeland-cylon{{/if}}">
+        <div class="{{#if ../class}}{{../class}}-info {{/if}}{{#if ../defaultTheme}}ch-info{{/if}}">
+            <div class="{{#if ../class}}{{../class}}-title {{/if}}{{#if ../defaultTheme}}ch-title{{/if}}">
+                <h1>{{name}}</h1>
+            </div>
+            <div class="{{#if ../class}}{{../class}}-description {{/if}}{{#if ../defaultTheme}}ch-description{{/if}}">
+                {{#if description}}
+                    <p>{{description}}</p>
+                {{/if}}
+            </div>
+        </div>
+        <div class="{{#if ../class}}{{../class}}-commands {{/if}}{{#if ../defaultTheme}}ch-commands{{/if}}">
+            {{#each commands}}
+                {{> capricaHomelandCylonCommand}}
+            {{/each}}
+        </div>
+    </div>
+</template>
+
+<template name="capricaHomelandCylonCommand">
+    <div class="{{#if ../../class}}{{../../class}}-command {{/if}}{{#if ../../defaultTheme}}ch-command{{/if}}">
+        <a href="#" class="js-cylon-command">{{this}}</a>
+    </div>
+</template>
