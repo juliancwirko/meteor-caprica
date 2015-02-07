@@ -87,6 +87,9 @@ You can also read more about ````juliancwirko:arduino-cylon```` package here:
 ### Current UI demo
 [http://caprica-demo.meteor.com/](http://caprica-demo.meteor.com/)
 
+### Video demo
+![Caprica video demo](http://redsunmedia.pl/arduino/caprica1.gif)
+
 ### Problems to solve
 
 - better understanding of npm packages and sudo privilages with Meteor - I have to run meteor with sudo after adding packages :/
