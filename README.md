@@ -7,9 +7,14 @@ Meteor [CylonJS](http://cylonjs.com/) wrapper for [Arduino](http://arduino.cc/) 
 
 See: [Arduino with Cylon.js](http://cylonjs.com/documentation/platforms/arduino/#how-to-connect)
 
-Then add the package and config your Cylon. With this package it should be installed juliancwirko:arduino-cylon package too.
+Then add the packages:
 
-Example:
+    meteor add juliancwirko:arduino-cylon
+    meteor add juliancwirko:caprica
+
+and config your Cylon:
+
+#### Example
 
 **Server side:**
 
@@ -56,7 +61,7 @@ Example:
     });
 
 Next step is to place ````{{> capricaHomeland}}```` template somewhere in your Meteor app layout.
-You can se it in demo app here: []()
+You can se it in demo app here: [https://github.com/juliancwirko/caprica-demo](https://github.com/juliancwirko/caprica-demo)
 
 **Client side (HTML):**
 
@@ -84,7 +89,7 @@ You can also read more about ````juliancwirko:arduino-cylon```` package here:
 
 ### Problems to solve
 
-- better understanding of npm packages and sudo privilages with Meteor - I have to run meteor with sudo :/
+- better understanding of npm packages and sudo privilages with Meteor - I have to run meteor with sudo after adding packages :/
 - better exceptions handling - if there is no Arduino connected we should comment devices and connections blocks
 - you need to refresh page after changes in Cylonjs config
 
