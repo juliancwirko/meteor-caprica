@@ -1,12 +1,13 @@
-## Admin panel for Meteor [CylonJS](http://cylonjs.com/) wrapper for [Arduino](http://arduino.cc/) board.
+### Admin panel for Meteor Cylon.js
+Meteor [CylonJS](http://cylonjs.com/) wrapper for [Arduino](http://arduino.cc/) board.
 
 #### This is just for fun but all ideas and PRs are welcomed :)
 
 ### Usage
 
-First of all you should configure your Arduino connection. See: [Arduino with Cylon.js](http://cylonjs.com/documentation/platforms/arduino/#how-to-connect)
+See: [Arduino with Cylon.js](http://cylonjs.com/documentation/platforms/arduino/#how-to-connect)
 
-Then add the package and config your Cylon. This package should install ````juliancwirko:arduino-cylon```` too
+Then add the package and config your Cylon. With this package it should be installed juliancwirko:arduino-cylon package too.
 
 Example:
 
@@ -54,7 +55,8 @@ Example:
 
     });
 
-Next step is to place ````{{> capricaHomeland}}```` template somewhere in your Meteor app layout. You can se it in demo app here: []()
+Next step is to place ````{{> capricaHomeland}}```` template somewhere in your Meteor app layout.
+You can se it in demo app here: []()
 
 **Client side (HTML):**
 
@@ -67,9 +69,15 @@ Next step is to place ````{{> capricaHomeland}}```` template somewhere in your M
     </body>
 
 
-More configuration options and devices documentation on cylonjs website: [http://cylonjs.com/](http://cylonjs.com/) There will be blog post about it soon...
+More configuration options and devices documentation on cylonjs website:
 
-You can also read more about ````juliancwirko:arduino-cylon```` package here: [https://github.com/juliancwirko/meteor-arduino-cylon](https://github.com/juliancwirko/meteor-arduino-cylon)
+[http://cylonjs.com/](http://cylonjs.com/)
+
+There will be blog post about it soon...
+
+You can also read more about ````juliancwirko:arduino-cylon```` package here:
+
+[https://github.com/juliancwirko/meteor-arduino-cylon](https://github.com/juliancwirko/meteor-arduino-cylon)
 
 ### Current UI demo
 [http://caprica-demo.meteor.com/](http://caprica-demo.meteor.com/)
