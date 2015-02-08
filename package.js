@@ -1,6 +1,6 @@
 Package.describe({
     name: 'juliancwirko:caprica',
-    summary: 'Simple admin template for juliancwirko:arduino-cylon package',
+    summary: 'Admin panel for Meteor.js + Cylon.js + Arduino',
     version: '0.0.1',
     git: 'https://github.com/juliancwirko/meteor-caprica'
 });
