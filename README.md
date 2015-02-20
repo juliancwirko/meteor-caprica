@@ -12,6 +12,10 @@ Then add the packages:
     meteor add juliancwirko:arduino-cylon
     meteor add juliancwirko:caprica
 
+#### Blog post
+
+[Meteor meets Arduino and Cylon](http://julian.io/meteor-meets-arduino-and-cylon/)
+
 and config your Cylon:
 
 #### Example
