@@ -82,8 +82,6 @@ More configuration options and devices documentation on cylonjs website:
 
 [http://cylonjs.com/](http://cylonjs.com/)
 
-There will be blog post about it soon...
-
 You can also read more about ````juliancwirko:arduino-cylon```` package here:
 
 [https://github.com/juliancwirko/meteor-arduino-cylon](https://github.com/juliancwirko/meteor-arduino-cylon)
