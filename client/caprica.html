@@ -1,7 +1,11 @@
+<template name="capricaHeaderSlogan">
+    <h1><span>Cylon-occupied Caprica</span> <small> ...and they have a Plan... Frak!!!</small></h1>
+</template>
+
 <template name="capricaHomeland">
     <div class="{{#if class}}{{class}} {{/if}}{{#if defaultTheme}}caprica-homeland{{/if}}">
         <div class="{{#if class}}{{class}}-header {{/if}}{{#if defaultTheme}}caprica-homeland-header{{/if}}">
-            <h1><span>Caprica</span> <small>...under Cylons occupation... and they have a Plan... Frak!!!</small></h1>
+            {{> capricaHeaderSlogan}}
         </div>
         <div class="{{#if class}}{{class}}-subheader {{/if}}{{#if defaultTheme}}caprica-homeland-subheader{{/if}}">
             <h2>Cylons:</h2>

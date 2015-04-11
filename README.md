@@ -77,6 +77,9 @@ You can se it in demo app here: [https://github.com/juliancwirko/caprica-demo](h
         {{> capricaHomeland class="my-custom-class" defaultTheme=true}}
     </body>
 
+You can disable default css styling by setting `defaultTheme` to `false`. You can provide your own class for styling. Other classes will be prefixed with your custom class.
+
+You can also use [aldeed:template-extension](https://atmospherejs.com/aldeed/template-extension) to overwrite templates. (Be careful with this).
 
 More configuration options and devices documentation on cylonjs website:
 
