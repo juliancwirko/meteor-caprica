@@ -25,7 +25,7 @@ Template.capricaHomelandCylonCommand.events({
         Meteor.call('toastersCommand', command, toasterName, function (err, result) {
             if (!err && result) {
                 console.log('Toaster response: ' + result);
-                sAlert(result);
+                sAlert.info(result);
             }
         });
     }
